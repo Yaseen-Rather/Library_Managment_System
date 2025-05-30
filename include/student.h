@@ -22,6 +22,8 @@ class student {
           //getters;
           int getStudentID(); const;
           std::string getStudentName() const;
+		  Books* getIssuedBooksHead() const;
+		  int getDate() const;
 
 
 #endif //STUDENT_H
